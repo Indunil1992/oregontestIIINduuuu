@@ -1,0 +1,101 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "b51e6a66-110e-478d-a7da-cd3851af49e1": {
+        "id": "b51e6a66-110e-478d-a7da-cd3851af49e1",
+        "parent": null,
+        "name": "oregontestIIINduuuu",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "2ad5d398-8ece-4f58-927c-947765742d33"
+        ],
+        "isRemovable": false,
+        "filePath": "oregontestIIINduuuu"
+      },
+      "2ad5d398-8ece-4f58-927c-947765742d33": {
+        "id": "2ad5d398-8ece-4f58-927c-947765742d33",
+        "parent": "b51e6a66-110e-478d-a7da-cd3851af49e1",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "oregontestIIINduuuu/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed Origon\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusWest2testOrigooncheckorigonnnany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "rootNode": "b51e6a66-110e-478d-a7da-cd3851af49e1",
+    "openFiles": [
+      "2ad5d398-8ece-4f58-927c-947765742d33"
+    ],
+    "currentFileId": "2ad5d398-8ece-4f58-927c-947765742d33",
+    "resources": {
+      "apigusWest2testOrigooncheckorigonnnany": {
+        "name": "apigusWest2testOrigooncheckorigonnnany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-west-2",
+          "apiMode": 0,
+          "apiName": "testOrigoon",
+          "endpointType": "REGIONAL",
+          "resourceMode": 0,
+          "resourceName": "check/origonnn",
+          "resourcePath": "/check/origonnn",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "Test",
+          "mode": 0
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "oregontestIIINduuuu",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-west-2",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1568107970103
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "oregontestIIINduuuu",
+      "url": "https://github.com/Indunil1992/oregontestIIINduuuu"
+    }
+  }
+}
